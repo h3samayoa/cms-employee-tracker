@@ -23,7 +23,8 @@ const prompt = () => {
                'View all employees',
                'View all roles',
                'View all departments',
-               'View all employees by department'
+               'View all employees by department',
+               
            ]
         }
     ])
