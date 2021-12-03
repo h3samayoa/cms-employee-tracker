@@ -8,5 +8,7 @@ connection.connect((err) => {
     if(err) throw err;
     console.log(chalk.yellow.bold(`====================================================================================`));
     console.log('');
-    console.log(chalk.greenBright.bold())
+    console.log(chalk.greenBright.bold(figlet.textSync('Employee CMS Tracker')));
+    console.log('');
+    console.log(chalk.yellow.bold(`====================================================================================`));
 })
